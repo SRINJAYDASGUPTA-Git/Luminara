@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "luminara",
+  "version": "${version}",
+  "name": "Luminara",
+  "description": "Step beyond the veil — into a fractured realm of crystal light, ancient runes, and living magic. Explore bioluminescent forests, uncover mystical ores, and craft enchanted gear powered by the essence of Luminara itself.",
+  "authors": [
+    "TheEndermanguy (Srinjay Dasgupta)",
+    "Dakezo (Debankita Ray)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/SRINJAYDASGUPTA-Git",
+    "sources": "https://github.com/SRINJAYDASGUPTA-Git/luminara",
+    "issues": "https://github.com/SRINJAYDASGUPTA-Git/luminara/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/luminara/icon.png",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "net.enderflame.luminara.Luminara"
+    ],
+    "client": [
+      "net.enderflame.luminara.LuminaraClient"
+    ],
+    "fabric-datagen": [
+      "net.enderflame.luminara.LuminaraDataGenerator"
+    ]
+  },
+
+  "mixins": [
+    "luminara.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+
+  "suggests": {
+    "another-mod": "*"
+  },
+
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library",
+        "client",
+        "fabric"
+      ],
+      "links": {
+        "curseforge": "https://curseforge.com/minecraft/mc-mods/luminara",
+        "modrinth": "https://modrinth.com/mod/luminara"
+      },
+      "credits": "Concept & Development by TheEndermanguy and Dakezo. Special thanks to the Minecraft modding community for inspiration.",
+      "motd": "Enter the Realm of Magic ✨"
+    }
+  }
+}
