@@ -1,5 +1,6 @@
 package net.enderflame.luminara;
 
+import net.enderflame.luminara.block.ModBlocks;
 import net.enderflame.luminara.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback;
@@ -16,6 +17,7 @@ public class Luminara implements ModInitializer {
 	public void onInitialize() {
 
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
         ItemTooltipCallback.EVENT.register((itemStack, tooltipContext, tooltipType, list) -> {
             if (!itemStack.isOf(ModItems.MANA_FRAGMENT)) {
                 return;

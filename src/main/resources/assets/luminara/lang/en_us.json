@@ -1,4 +1,13 @@
 {
+  "itemGroup.luminara.luminara_item_group": "Luminara",
   "item.luminara.mana_fragment": "Mana Fragment",
-  "item.luminara.mana_fragment.tooltip": "A fragment of crystallized mana, faintly pulsing with energy..."
+  "item.luminara.mana_fragment.tooltip": "A shard of crystallized mana, faintly pulsing with energy.",
+  "item.luminara.mana_dust": "Mana Dust",
+  "item.luminara.runestone_shard": "Runestone Shard",
+  "item.luminara.essence_pearl": "Essence Pearl",
+  "item.luminara.mana_crystal": "Mana Crystal",
+
+  "block.luminara.arcane_block": "Arcane Block",
+  "block.luminara.crystal_block": "Crystal Block",
+  "block.luminara.runic_block": "Runic Block"
 }
